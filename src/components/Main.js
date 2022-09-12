@@ -42,8 +42,9 @@ const Main = () => {
           <span className="ml-2 hidden md:block">See the Roadmap</span>
         </div>
       </div>
-
-      <Roadmap />
+      <div className="h-fit">
+        <Roadmap />
+      </div>
     </div>
   );
 };

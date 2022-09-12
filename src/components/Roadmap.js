@@ -26,7 +26,7 @@ const Roadmap = () => {
             <span className="text-[22px] font-bold">Next Js</span>
           </div>
         </div>
-        <div className="h-[150vh] border-[1px] hidden md:block  border-black"></div>
+        <div className="h-100% border-[1px] hidden md:block  border-black"></div>
         <div className="flex-1 flex md:items-start md:ml-14 mt-4 w-fit flex-col">
           <div className=" w-[150px] md:w-[250px]  h-[150px] mt-4"></div>
           <div className="border-2 rounded-md border-black w-[130px] h-[150px] md:w-[250px] md:h-[150px] mt-4 flex items-center gap-2 flex-col md:flex-row">
