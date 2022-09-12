@@ -9,7 +9,7 @@ const Main = () => {
   return (
     <div className="w-full">
       <div>
-        <div className=" mt-4 h-fit md:h-[70vh] flex flex-col-reverse md:flex-row p-2 md:p-14 px-16">
+        <div className=" mt-4 h-fit  flex flex-col-reverse md:flex-row p-2 md:p-14 px-16">
           <div className="flex flex-1 gap-6 flex-col">
             <h2 className="font-logo text-[34px]">Front End Web Developer</h2>
             <p className="text-[20px]">
