@@ -9,7 +9,10 @@ const index = () => {
       <div className="flex items-center flex-wrap justify-center ">
         {Items.map((item) => {
           return (
-            <div className="h-[270px] border-2 shadow-[0_3px_10px_rgb(0,0,0,0.2)] border-black w-[350px] mx-5 my-5 p-5 rounded-md">
+            <div
+              key={item.id}
+              className="h-[270px] border-2 shadow-[0_3px_10px_rgb(0,0,0,0.2)] border-black w-[350px] mx-5 my-5 p-5 rounded-md"
+            >
               <div className="flex flex-row-reverse justify-end items-center gap-5">
                 <h2 className="text-[22px] font-bold">{item.title}</h2>
                 <motion.img

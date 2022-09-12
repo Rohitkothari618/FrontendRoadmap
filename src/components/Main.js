@@ -2,7 +2,8 @@ import React from "react";
 import { AiOutlineArrowDown } from "react-icons/ai";
 import { motion } from "framer-motion";
 import Roadmap from "./Roadmap";
-import { useScroll } from "framer-motion";
+
+import Image from "next/image";
 
 const Main = () => {
   return (
@@ -15,17 +16,17 @@ const Main = () => {
               Learn how to build high quality websites and dynamic applications
               to create stunning user experiences for the web.
             </p>
-            <a class="relative inline-block px-4 py-2 w-fit md:w-full text-center  font-medium group">
-              <span class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
-              <span class="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black"></span>
-              <span class="relative text-black group-hover:text-white text-center w-screen">
+            <a className="relative inline-block px-4 py-2 w-fit md:w-full text-center  font-medium group">
+              <span className="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
+              <span className="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black"></span>
+              <span className="relative text-black group-hover:text-white text-center w-screen">
                 Getting Start
               </span>
             </a>
           </div>
           {/* <div className="h-[75vh] border-[1px] border-black mx-4 hidden md:block"></div> */}
           <div className="flex-1 text-[32px] ml-4 flex items-center justify-center ">
-            <img
+            <Image
               src="./1.jpg"
               alt="logo"
               className="w-[300px] md:w-[500px] mt-0 md:mt-4"

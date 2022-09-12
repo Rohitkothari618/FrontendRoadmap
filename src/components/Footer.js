@@ -11,7 +11,7 @@ const Footer = () => {
           <span className="text-[22px] font-logo">ClubOfCoders</span>
           <p className="w-[80%] mt-4 text-gray-500">
             Club of Coders is a platform that helps anyone learn how to code,
-            whether you're a budding developer or an entrepreneur or even just
+            whether you are a budding developer or an entrepreneur or even just
             curious about full-stack development.
           </p>
         </div>
