@@ -27,8 +27,10 @@ const Main = () => {
           {/* <div className="h-[75vh] border-[1px] border-black mx-4 hidden md:block"></div> */}
           <div className="flex-1 text-[32px] ml-4 flex items-center justify-center ">
             <Image
-              src="./1.jpg"
+              src="/1.jpg"
               alt="logo"
+              width={"400px"}
+              height={"500px"}
               className="w-[300px] md:w-[500px] mt-0 md:mt-4"
             />
           </div>
